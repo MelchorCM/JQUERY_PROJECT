@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#formulario{
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.elemento{
+  display: flex;
+}
+
+.elemento button{
+  display: flex;
+  justify-content: flex-end;
+  height: min-content;
+}
